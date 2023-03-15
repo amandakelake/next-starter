@@ -293,6 +293,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/three@npm:^0.149.0":
+  version: 0.149.0
+  resolution: "@types/three@npm:0.149.0"
+  dependencies:
+    "@types/webxr": "*"
+  checksum: 5def82bd5d4fb0eb6046e747eecced06d68fbf1747ab8f3e7657872e42e58ce7a92218d7c5e4ca26204257927638ad14da5d1cce7310aca15eb8a9bd484ea191
+  languageName: node
+  linkType: hard
+
+"@types/webxr@npm:*":
+  version: 0.5.1
+  resolution: "@types/webxr@npm:0.5.1"
+  checksum: a77c6be72623679341526dbec18971db0824d5697626d56decc8bb5b73491582b64d094c168ae8d00861549122ca066d7dc45d9cbb5c608626be7f48a6cd7c43
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/parser@npm:^5.42.0":
   version: 5.55.0
   resolution: "@typescript-eslint/parser@npm:5.55.0"
@@ -1917,11 +1933,13 @@ __metadata:
     "@types/node": 18.15.3
     "@types/react": 18.0.28
     "@types/react-dom": 18.0.11
+    "@types/three": ^0.149.0
     eslint: 8.36.0
     eslint-config-next: 13.2.4
     next: 13.2.4
     react: 18.2.0
     react-dom: 18.2.0
+    three: ^0.150.1
     typescript: 4.9.5
   languageName: unknown
   linkType: soft
@@ -2590,6 +2608,13 @@ __metadata:
   version: 0.2.0
   resolution: "text-table@npm:0.2.0"
   checksum: b6937a38c80c7f84d9c11dd75e49d5c44f71d95e810a3250bd1f1797fc7117c57698204adf676b71497acc205d769d65c16ae8fa10afad832ae1322630aef10a
+  languageName: node
+  linkType: hard
+
+"three@npm:^0.150.1":
+  version: 0.150.1
+  resolution: "three@npm:0.150.1"
+  checksum: b12a92a681a30e62640d90bdf074d039c05d8294ad40f437e7e1807ce0e698ad6728878a1e72dad22bf05d7a359843ecea8739d05f2f13143bc3a4ecdfdbdd7b
   languageName: node
   linkType: hard
 
