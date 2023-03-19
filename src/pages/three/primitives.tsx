@@ -7,7 +7,7 @@ import MyCircle from "@/components/primitive/circle";
 const meshArr: (Three.Mesh | Three.LineSegments)[] = []
 
 export default function Primitives() {
-    const canvasRef = useRef<HTMLCanvasElement>(null);
+    const canvasRef = useRef<HTMLCanvasElement>();
     const rendererRef = useRef<Three.WebGLRenderer | null>(null)
     const cameraRef = useRef<Three.PerspectiveCamera | null>(null)
 
