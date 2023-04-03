@@ -9,7 +9,9 @@ const videos = [
     'https://cdn.rtfkt.com/assets/banners/world-merging/banner-wm-chip-loop.mp4',
 ];
 
-export type VideoProps = ReactPlayerProps;
+export interface VideoProps extends ReactPlayerProps {
+
+}
 
 const CustomVideo = (props: VideoProps) => {
     const [showPlayer, setShowPlayer] = useState(false);
